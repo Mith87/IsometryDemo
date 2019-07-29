@@ -14,7 +14,7 @@ for (var tX = 0; tX < MAP_W; tX++) {
 		tileZ = tileData[TILE.Z];
 		
 		if(tileIndex != 0) {
-			draw_sprite(sprFloorPlaceholder, tileIndex-1, roomX, roomY + tileZ);
+			draw_sprite(sprFloorPlaceholder, tileIndex-1, roomX, roomY - tileZ);
 			
 			if(tileIndex >= 4) {
 				draw_sprite(sprWallPlaceholder, (tileIndex * 0.5)-1, roomX, roomY - tileZ);
