@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "59e3f931-c0f8-4bbe-a11c-c4e5c842b6d3",
+            "Value": {
+                "id": "e9c386db-8300-49f7-8e5a-0def79d0e999",
+                "resourcePath": "scripts\\scrRoomYToMapY\\scrRoomYToMapY.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7948367e-7ae2-4da9-9003-5bb399a59abb",
             "Value": {
                 "id": "31354419-9718-41a9-ae91-a616039e2747",
@@ -212,6 +220,14 @@
                 "id": "01f7a0bf-d962-4a5b-8184-3e8ca6d6f397",
                 "resourcePath": "views\\cbbcfee7-d1ca-4973-8d60-f23a42fb1aa1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc1db889-a77c-4914-a6a0-99c2f3aef184",
+            "Value": {
+                "id": "127062f1-291f-4548-952d-5ff81e8c5c7a",
+                "resourcePath": "scripts\\scrRoomXToMapX\\scrRoomXToMapX.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -290,7 +306,9 @@
     "script_order": [
         "21de0a09-8942-4d8f-b1d8-7a01d36dd118",
         "32d637c0-08ef-4e70-8738-eb3f7aaf860c",
-        "e529f6d3-6b12-4a77-897c-8058784bdd90"
+        "e529f6d3-6b12-4a77-897c-8058784bdd90",
+        "cc1db889-a77c-4914-a6a0-99c2f3aef184",
+        "59e3f931-c0f8-4bbe-a11c-c4e5c842b6d3"
     ],
     "tutorial": ""
 }

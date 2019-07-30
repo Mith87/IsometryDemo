@@ -13,6 +13,12 @@ for (var tX = 0; tX < MAP_W; tX++) {
 		tileIndex = tileData[TILE.SPRITE];
 		tileZ = tileData[TILE.Z];
 		
+		if ((scrRoomXToMapX(mouse_x, mouse_y) == tX) && (scrRoomYToMapY(mouse_x, mouse_y) == tY)) {
+		
+			tileIndex = 5;
+			tileZ += 2;
+		}
+		
 		if(tileIndex != 0) {
 			draw_sprite(sprFloorPlaceholder, tileIndex-1, roomX, roomY - tileZ);
 			
