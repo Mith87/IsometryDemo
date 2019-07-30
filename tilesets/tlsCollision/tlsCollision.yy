@@ -1,8 +1,8 @@
 {
-    "id": "7948367e-7ae2-4da9-9003-5bb399a59abb",
+    "id": "f1f28b84-e05d-478e-9259-206776ffe8c5",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "tlsTiles",
+    "name": "tlsCollision",
     "auto_tile_sets": [
         
     ],
@@ -17,7 +17,7 @@
     "out_columns": 2,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
-    "spriteId": "9cdf818b-a67a-4089-bd14-4e84d94d9989",
+    "spriteId": "acefcc20-f02d-4cda-9e40-bd19a0366624",
     "sprite_no_export": true,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "tile_animation": {
@@ -25,11 +25,7 @@
         "FrameData": [
             0,
             1,
-            2,
-            3,
-            4,
-            5,
-            6
+            2
         ],
         "SerialiseFrameCount": 1
     },
