@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "359f136d-f48b-4fb3-8876-30dc0c486972",
-            "Value": {
-                "id": "278c5de2-af22-4325-b0e3-5053e18352fc",
-                "resourcePath": "sprites\\sprFloorPlaceholder\\sprFloorPlaceholder.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "3d7a9dca-62f4-488a-b199-6a126d99e64d",
             "Value": {
                 "id": "bffbd5bc-1de2-4156-9873-4df072e4e8a6",
@@ -130,7 +122,7 @@
             "Key": "403d794b-631e-4999-ad62-c715da101a74",
             "Value": {
                 "id": "a893a630-83c5-48f4-b192-0e3de752bbe4",
-                "resourcePath": "sprites\\sprWallPlaceholder\\sprWallPlaceholder.yy",
+                "resourcePath": "sprites\\sprTerrainPlaceholder\\sprTerrainPlaceholder.yy",
                 "resourceType": "GMSprite"
             }
         },
