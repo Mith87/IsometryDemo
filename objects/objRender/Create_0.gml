@@ -1,8 +1,8 @@
-/// @description Build the isometric map
-
 //layer_set_visible("CollisionMap", false);
 //layer_set_visible("WorldMap", false);
-//layer_set_visible("EntityMap", false);
+layer_set_visible("EntityMap", false);
+
+global.playerStartPosition = [0, 0];
 
 global.worldMap = ds_grid_create(MAP_W, MAP_H);
 global.entityMap = ds_grid_create(MAP_W, MAP_H);
@@ -25,12 +25,19 @@ for (var tX = 0; tX < MAP_W; tX++) {
 		worldTile[TILE.Z] = 0;
 		if (worldTile[TILE.SPRITE] >= 4) worldTile[TILE.Z] = 64;
 		
-		//World Tiles Init
+		//Entity Tiles Init
 		entityTile[TILE.SPRITE] = tileEntityData;
 		entityTile[TILE.Z] = 64;
 		
+		//Get Player Start Position
+		if( tileEntityData == 1) {
+			global.playerStartPosition[0] = tX * 16;
+			global.playerStartPosition[1] = tY * 16;
+		}
+		
 		global.worldMap[# tX, tY] = worldTile;
 		global.entityMap[# tX, tY] = entityTile;
+		
 	}
 }
 

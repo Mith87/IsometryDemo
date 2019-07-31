@@ -1,5 +1,3 @@
-/// @description Render Game
-
 var tileWorldData, tileEntityData, roomX, roomY, tileIndex, tileZ;
 
 for (var tX = 0; tX < MAP_W; tX++) {
@@ -11,13 +9,13 @@ for (var tX = 0; tX < MAP_W; tX++) {
 		roomX = scrMapXToRoomX(tX, tY);
 		roomY = scrMapYToRoomY(tX, tY);
 		
+		tileIndex = tileWorldData[TILE.SPRITE];
+		tileZ = tileWorldData[TILE.Z];
+		
 		if ((scrRoomXToMapX(mouse_x, mouse_y) == tX) && (scrRoomYToMapY(mouse_x, mouse_y) == tY)) {
 			tileIndex = 5;
 			tileZ += 2;
 		}
-		
-		tileIndex = tileWorldData[TILE.SPRITE];
-		tileZ = tileWorldData[TILE.Z];
 		
 		if(tileIndex != 0) {
 			draw_sprite(sprTerrainPlaceholder, tileIndex-1, roomX, roomY - tileZ);		
@@ -32,3 +30,16 @@ for (var tX = 0; tX < MAP_W; tX++) {
 
 	}
 }
+
+//For tracking current player position
+draw_text(ROOM_W - 120, 20, "Tile X: " + string(global.playerX));
+draw_text(ROOM_W - 120, 40, "Tile Y: " + string(global.playerY));
+
+//For tracking current player position
+roomX = scrMapXToRoomX(global.playerX / 16, global.playerY / 16);
+roomY = scrMapYToRoomY(global.playerX / 16, global.playerY / 16);
+
+draw_text(ROOM_W - 120, 60, "Room X: " + string(roomX));
+draw_text(ROOM_W - 120, 80, "Room Y: " + string(roomY));
+
+draw_sprite(sprPlayerRoomPlaceholder, 0, roomX, roomY - 64);

@@ -14,7 +14,7 @@
             
         ]
     },
-    "out_columns": 2,
+    "out_columns": 1,
     "out_tilehborder": 2,
     "out_tilevborder": 2,
     "spriteId": "acefcc20-f02d-4cda-9e40-bd19a0366624",
@@ -24,8 +24,7 @@
         "AnimationCreationOrder": null,
         "FrameData": [
             0,
-            1,
-            2
+            1
         ],
         "SerialiseFrameCount": 1
     },
@@ -33,7 +32,7 @@
         
     ],
     "tile_animation_speed": 15,
-    "tile_count": 3,
+    "tile_count": 2,
     "tileheight": 16,
     "tilehsep": 0,
     "tilevsep": 0,
