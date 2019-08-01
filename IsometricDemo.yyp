@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "17728635-45a8-4d17-9ba1-cf463ef0c8cc",
+            "Value": {
+                "id": "79ec308e-a87e-4ae4-ba52-5ff47a5da6f2",
+                "resourcePath": "views\\17728635-45a8-4d17-9ba1-cf463ef0c8cc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "21de0a09-8942-4d8f-b1d8-7a01d36dd118",
             "Value": {
                 "id": "d30b8428-da12-4c71-8653-5093f29c8777",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "44314777-1ad2-40f2-aaad-8ac2db529c7e",
+            "Value": {
+                "id": "4937d8a4-3688-401d-b945-304e36c01257",
+                "resourcePath": "views\\44314777-1ad2-40f2-aaad-8ac2db529c7e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "458fdbaa-ba10-45bf-92e8-f77f393c5a0b",
             "Value": {
                 "id": "55cc6758-7381-4e26-bf99-c906d0a3ebaf",
@@ -188,6 +204,14 @@
                 "id": "c987689d-f782-486d-a350-4f431647779e",
                 "resourcePath": "sprites\\sprPlayerMap\\sprPlayerMap.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4faf0005-77f7-4cda-8255-027153687225",
+            "Value": {
+                "id": "408fe278-d6db-4657-aab4-f696567c07cc",
+                "resourcePath": "views\\4faf0005-77f7-4cda-8255-027153687225.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -300,6 +324,14 @@
                 "id": "f045c4c8-9873-4e66-a30d-a8ae593ecd3c",
                 "resourcePath": "objects\\objDepth\\objDepth.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8fde38c4-df51-435c-b3fb-6f03454719f9",
+            "Value": {
+                "id": "6d9543f0-899f-41ad-8008-be6ec6c36644",
+                "resourcePath": "views\\8fde38c4-df51-435c-b3fb-6f03454719f9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
