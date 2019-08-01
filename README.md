@@ -11,5 +11,11 @@ Part 2: https://youtu.be/1GeYk8EFKMQ
 **Clint Bellanger's Isometric Tiles Math**
 http://clintbellanger.net/articles/isometric_math/
 
+**FriendlyCosmonaut's Depth System Tutorial**
+https://www.youtube.com/watch?v=8QCgN2RDA9I
+
 **Creating Isometric Worlds: A Primer for Game Developers**
 https://gamedevelopment.tutsplus.com/tutorials/creating-isometric-worlds-a-primer-for-game-developers--gamedev-6511
+
+
+
