@@ -9,8 +9,16 @@ var moveX = 0;
 var moveY = 0;
 
 //Set Movement
-moveX = ( inputRight - inputLeft ) * entitySpeed;
+moveX = ( ( inputRight - inputLeft ) * entitySpeed ) * 2;
 moveY = ( inputDown - inputUp ) * entitySpeed;
+
+if ( ( inputUp || inputDown ) && !( inputRight || inputLeft ) ) {
+	moveY *= 2;
+}
+
+if ( ( inputRight || inputLeft ) && !( inputUp || inputDown ) ) {
+	moveX *= 1.25;
+}
 
 //Collision Checks
 
